@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<robot name="simple_four_wheels" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+<gazebo>
+  <plugin name="control" filename="libgazebo_ros_control.so"/>
+</gazebo>
+<gazebo reference="base_link">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="left_wheel_2_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="right_wheel_1_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="right_wheel_2_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="left_wheel_1_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="right_cam_1">
+<gravity>true</gravity>
+<sensor name="camera1" type="camera">
+  <pose>0 0 0 0 0 0</pose>
+  <visualize>true</visualize>
+  <update_rate>10</update_rate>
+  <camera>
+      <horizontal_fov>1.3962634</horizontal_fov>
+      <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>
+      </image>
+      <clip>
+          <near>0.1</near>
+          <far>10</far>
+      </clip>
+  </camera>
+  <plugin name="camera_controller_1" filename="libgazebo_ros_camera.so">
+      <frameName>right_cam_1_optical</frameName>
+  </plugin>
+</sensor>
+</gazebo>
+
+<gazebo reference="left_cam_1">
+<gravity>true</gravity>
+<sensor name="camera2" type="camera">
+  <pose>0 0 0 0 0 0</pose>
+  <visualize>true</visualize>
+  <update_rate>10</update_rate>
+  <camera>
+      <horizontal_fov>1.3962634</horizontal_fov>
+      <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>
+      </image>
+      <clip>
+          <near>0.1</near>
+          <far>10</far>
+      </clip>
+  </camera>
+  <plugin name="camera_controller_2" filename="libgazebo_ros_camera.so">
+      <frameName>left_cam_1_optical</frameName>
+  </plugin>
+</sensor>
+</gazebo>
+
+</robot>

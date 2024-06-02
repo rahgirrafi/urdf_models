@@ -1,0 +1,53 @@
+[0.476s] Invoking command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data
+[0.655s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.655s]   warnings.warn(
+[0.661s] running egg_info
+[0.662s] creating ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info
+[0.662s] writing ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/entry_points.txt
+[0.663s] writing requirements to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/requires.txt
+[0.663s] writing top-level names to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/top_level.txt
+[0.663s] writing manifest file '../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/SOURCES.txt'
+[0.664s] reading manifest file '../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/SOURCES.txt'
+[0.665s] writing manifest file '../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/SOURCES.txt'
+[0.665s] running build
+[0.665s] running build_py
+[0.665s] creating /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build
+[0.665s] creating /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build/lib
+[0.665s] creating /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build/lib/simple_four_wheels_description
+[0.665s] copying simple_four_wheels_description/__init__.py -> /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build/lib/simple_four_wheels_description
+[0.665s] running install
+[0.665s] running install_lib
+[0.666s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description
+[0.666s] copying /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build/lib/simple_four_wheels_description/__init__.py -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description
+[0.666s] byte-compiling /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description/__init__.py to __init__.cpython-310.pyc
+[0.667s] running install_data
+[0.667s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/ament_index
+[0.667s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/ament_index/resource_index
+[0.667s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/ament_index/resource_index/packages
+[0.667s] copying resource/simple_four_wheels_description -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/ament_index/resource_index/packages
+[0.667s] copying package.xml -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description
+[0.667s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/launch
+[0.668s] copying launch/display.launch.py -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/launch
+[0.668s] copying launch/gazebo.launch.py -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/launch
+[0.668s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/urdf
+[0.668s] copying urdf/simple_four_wheels.trans -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/urdf
+[0.668s] copying urdf/simple_four_wheels.gazebo -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/urdf
+[0.668s] copying urdf/materials.xacro -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/urdf
+[0.668s] copying urdf/simple_four_wheels.xacro -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/urdf
+[0.668s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/base_link.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/wheel4_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/whell1_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/cam2_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/wheel2_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/wheel3_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] copying meshes/cam1_1.stl -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/meshes
+[0.668s] creating /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/config
+[0.669s] copying config/display.rviz -> /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/config
+[0.669s] running install_egg_info
+[0.670s] Copying ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info to /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description-0.0.0-py3.10.egg-info
+[0.670s] running install_scripts
+[0.686s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log'
+[0.702s] Invoked command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data
