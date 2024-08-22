@@ -1,0 +1,96 @@
+[1.251s] Invoking command in '/home/rafi/ros2/urdf_ws/src/Final_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data
+[1.437s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.437s]   warnings.warn(
+[1.444s] running egg_info
+[1.444s] writing ../../build/Final_description/Final_description.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ../../build/Final_description/Final_description.egg-info/dependency_links.txt
+[1.470s] writing entry points to ../../build/Final_description/Final_description.egg-info/entry_points.txt
+[1.470s] writing requirements to ../../build/Final_description/Final_description.egg-info/requires.txt
+[1.470s] writing top-level names to ../../build/Final_description/Final_description.egg-info/top_level.txt
+[1.472s] reading manifest file '../../build/Final_description/Final_description.egg-info/SOURCES.txt'
+[1.488s] writing manifest file '../../build/Final_description/Final_description.egg-info/SOURCES.txt'
+[1.488s] running build
+[1.488s] running build_py
+[1.501s] copying Final_description/__init__.py -> /home/rafi/ros2/urdf_ws/build/Final_description/build/lib/Final_description
+[1.502s] running install
+[1.502s] running install_lib
+[1.503s] copying /home/rafi/ros2/urdf_ws/build/Final_description/build/lib/Final_description/__init__.py -> /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description
+[1.503s] running install_data
+[1.517s] copying resource/Final_description -> /home/rafi/ros2/urdf_ws/install/Final_description/share/ament_index/resource_index/packages
+[1.517s] copying package.xml -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description
+[1.551s] copying launch/display.launch.py -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/launch
+[1.570s] copying urdf/Final.trans -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.571s] copying urdf/Final.xacro -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.571s] copying urdf/Final.gazebo -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.572s] copying urdf/materials.xacro -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.587s] copying meshes/pipe_rear_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.587s] copying meshes/MG995_servo_v1__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.588s] copying meshes/pipe_lower_middle_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.589s] copying meshes/base_link.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.589s] copying meshes/link_servo_pipe_v1__3__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.590s] copying meshes/pipe_upper_middle_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.590s] copying meshes/dc_servo_connector_v1__3__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.591s] copying meshes/link_servo_pipe_v1__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.591s] copying meshes/wheel_2_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.591s] copying meshes/wheel4_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.592s] copying meshes/link_servo_pipe_left_1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.592s] copying meshes/pipe_joint_middle_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.593s] copying meshes/MG995_servo_v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.594s] copying meshes/dc_motor_shaft_v1__4__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.594s] copying meshes/pipe_joint_middle_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.595s] copying meshes/hex_coupler_dummy_6_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.596s] copying meshes/dc_motor_shaft_v1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.596s] copying meshes/wheel_1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.596s] copying meshes/pipe_servo_link_rear_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.597s] copying meshes/MG995_servo_bracket_v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.597s] copying meshes/hex_coupler_dummy_4_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.598s] copying meshes/wheel5_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.598s] copying meshes/pipe_servo_link_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.598s] copying meshes/hex_coupler_dummy_5_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.599s] copying meshes/pipe_joint_rear_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.599s] copying meshes/pipe_upper_middle_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.599s] copying meshes/hex_coupler_dummy_1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.600s] copying meshes/wheel_3_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.600s] copying meshes/wheel6_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.601s] copying meshes/pipe_joint_rear_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.601s] copying meshes/servo_connector_v2__3__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.602s] copying meshes/dc_motor_mount_1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.602s] copying meshes/servo_connector_v2_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.603s] copying meshes/MG995_servo_bracket__Mirror__v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.603s] copying meshes/MG995_servo_bracket__Mirror__v1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.604s] copying meshes/pipe_servo_link_rear_right__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.604s] copying meshes/pipe_lower_middle_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.605s] copying meshes/servo_connector_v2__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.605s] copying meshes/dc_motor_mount_v7__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.606s] copying meshes/pipe_dc_link_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.606s] copying meshes/pipe_joint_front_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.607s] copying meshes/dc_motor_shaft_v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.607s] copying meshes/dc_motor_mount_v7__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.607s] copying meshes/dc_motor_shaft_v1__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.608s] copying meshes/pipe_dc_link_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.608s] copying meshes/dc_servo_connector_v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.609s] copying meshes/pipe_servo_link_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.610s] copying meshes/pipe_front_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.610s] copying meshes/pipe_front_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.611s] copying meshes/dc_motor_shaft_v1__5__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.611s] copying meshes/dc_motor_mount_v7_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.612s] copying meshes/hex_coupler_dummy_2_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.612s] copying meshes/dc_motor_mount_v7__5__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.612s] copying meshes/servo_connector_v2__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.613s] copying meshes/pipe_joint_front_right_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.613s] copying meshes/MG995_servo_v1__3__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.614s] copying meshes/pipe_rear_left_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.614s] copying meshes/link_servo_pipe_v1__1__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.615s] copying meshes/dc_servo_connector_v1__2__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.615s] copying meshes/MG995_servo_v1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.616s] copying meshes/hex_coupler_dummy_3_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.617s] copying meshes/dc_servo_connector_v1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.617s] copying meshes/dc_motor_mount_v7__4__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.618s] copying meshes/MG995_servo_bracket_v1_1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.619s] copying meshes/dc_motor_shaft_v1__3__1.stl -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.619s] running install_egg_info
+[1.623s] removing '/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.624s] Copying ../../build/Final_description/Final_description.egg-info to /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description-0.0.0-py3.10.egg-info
+[1.648s] running install_scripts
+[1.680s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/Final_description/install.log'
+[1.728s] Invoked command in '/home/rafi/ros2/urdf_ws/src/Final_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data

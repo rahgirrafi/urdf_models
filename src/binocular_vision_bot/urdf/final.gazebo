@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<robot name="final" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<xacro:property name="body_color" value="Gazebo/Silver" />
+
+<gazebo>
+  <plugin name="control" filename="libgazebo_ros_control.so"/>
+</gazebo>
+<gazebo reference="base_link">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+  <gravity>true</gravity>
+</gazebo>
+
+<gazebo reference="ball_caster_v1_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="motor_mount_v1__1__1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="motor_mount_v1_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="motor_dummy_v1__1__1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="wheel_v2__1__1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="motor_dummy_v1_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="wheel_v2_1">
+  <material>${body_color}</material>
+  <mu1>0.2</mu1>
+  <mu2>0.2</mu2>
+  <self_collide>true</self_collide>
+</gazebo>
+
+<gazebo reference="camera_v1_1_optical">
+  <sensor name="camera1" type="camera">
+    <visualize>true</visualize>
+    <update_rate>10</update_rate>
+    <camera>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+        </image>
+        <clip>
+            <near>0.1</near>
+            <far>10</far>
+        </clip>
+    </camera>
+    <plugin name="camera_controller_1" filename="libgazebo_ros_camera.so">
+        <frameName>camera_v1_1_optical</frameName>
+    </plugin>
+  </sensor>
+</gazebo>
+
+<gazebo reference="camera_v1__1__1_optical">
+  <sensor name="camera2" type="camera">
+    <visualize>true</visualize>
+    <update_rate>10</update_rate>
+    <camera>
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+            <width>640</width>
+            <height>480</height>
+            <format>R8G8B8</format>
+        </image>
+        <clip>
+            <near>0.1</near>
+            <far>10</far>
+        </clip>
+    </camera>
+    <plugin name="camera_controller_2" filename="libgazebo_ros_camera.so">
+        <frameName>camera_v1__1__1_optical</frameName>
+    </plugin>
+  </sensor>
+</gazebo>
+
+</robot>

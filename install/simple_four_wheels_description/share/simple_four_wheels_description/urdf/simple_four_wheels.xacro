@@ -166,7 +166,7 @@
   <child link="right_wheel_1_1"/>
   <axis xyz="0.0 1.0 0.0"/>
 </joint>
-
+ 
 <joint name="r_wheel_joint_2" type="continuous">
   <origin xyz="-0.045 -0.0505 0.0025" rpy="0 0 0"/>
   <parent link="base_link"/>

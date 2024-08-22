@@ -1,0 +1,46 @@
+[1.200s] Invoking command in '/home/rafi/ros2/urdf_ws/src/rover_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data
+[1.394s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.394s]   warnings.warn(
+[1.401s] running egg_info
+[1.401s] creating ../../build/Final_description/Final_description.egg-info
+[1.402s] writing ../../build/Final_description/Final_description.egg-info/PKG-INFO
+[1.402s] writing dependency_links to ../../build/Final_description/Final_description.egg-info/dependency_links.txt
+[1.402s] writing entry points to ../../build/Final_description/Final_description.egg-info/entry_points.txt
+[1.402s] writing requirements to ../../build/Final_description/Final_description.egg-info/requires.txt
+[1.402s] writing top-level names to ../../build/Final_description/Final_description.egg-info/top_level.txt
+[1.402s] writing manifest file '../../build/Final_description/Final_description.egg-info/SOURCES.txt'
+[1.403s] reading manifest file '../../build/Final_description/Final_description.egg-info/SOURCES.txt'
+[1.404s] writing manifest file '../../build/Final_description/Final_description.egg-info/SOURCES.txt'
+[1.404s] running build
+[1.404s] running build_py
+[1.404s] creating /home/rafi/ros2/urdf_ws/build/Final_description/build
+[1.404s] creating /home/rafi/ros2/urdf_ws/build/Final_description/build/lib
+[1.404s] creating /home/rafi/ros2/urdf_ws/build/Final_description/build/lib/Final_description
+[1.404s] copying Final_description/__init__.py -> /home/rafi/ros2/urdf_ws/build/Final_description/build/lib/Final_description
+[1.404s] running install
+[1.405s] running install_lib
+[1.405s] creating /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description
+[1.405s] copying /home/rafi/ros2/urdf_ws/build/Final_description/build/lib/Final_description/__init__.py -> /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description
+[1.405s] byte-compiling /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description/__init__.py to __init__.cpython-310.pyc
+[1.406s] running install_data
+[1.406s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/ament_index
+[1.406s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/ament_index/resource_index
+[1.406s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/ament_index/resource_index/packages
+[1.406s] copying resource/Final_description -> /home/rafi/ros2/urdf_ws/install/Final_description/share/ament_index/resource_index/packages
+[1.406s] copying package.xml -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description
+[1.406s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/launch
+[1.406s] copying launch/display.launch.py -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/launch
+[1.406s] copying launch/gazebo.launch.py -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/launch
+[1.406s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.406s] copying urdf/Final.trans -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.406s] copying urdf/Final.xacro -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.406s] copying urdf/Final.gazebo -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.406s] copying urdf/materials.xacro -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/urdf
+[1.407s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/meshes
+[1.407s] creating /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/config
+[1.407s] copying config/display.rviz -> /home/rafi/ros2/urdf_ws/install/Final_description/share/Final_description/config
+[1.407s] running install_egg_info
+[1.408s] Copying ../../build/Final_description/Final_description.egg-info to /home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages/Final_description-0.0.0-py3.10.egg-info
+[1.409s] running install_scripts
+[1.425s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/Final_description/install.log'
+[1.443s] Invoked command in '/home/rafi/ros2/urdf_ws/src/rover_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data

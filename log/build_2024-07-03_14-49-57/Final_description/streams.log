@@ -1,0 +1,11 @@
+[0.703s] Invoking command in '/home/rafi/ros2/urdf_ws/src/rover_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data
+[0.890s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.890s]   warnings.warn(
+[0.896s] running egg_info
+[0.897s] writing ../../build/Final_description/Final_description.egg-info/PKG-INFO
+[0.897s] writing dependency_links to ../../build/Final_description/Final_description.egg-info/dependency_links.txt
+[0.897s] writing entry points to ../../build/Final_description/Final_description.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../build/Final_description/Final_description.egg-info/requires.txt
+[0.898s] writing top-level names to ../../build/Final_description/Final_description.egg-info/top_level.txt
+[0.899s] error: package directory 'Final_description' does not exist
+[0.913s] Invoked command in '/home/rafi/ros2/urdf_ws/src/rover_description' returned '1': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/Final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/Final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Final_description build --build-base /home/rafi/ros2/urdf_ws/build/Final_description/build install --record /home/rafi/ros2/urdf_ws/build/Final_description/install.log --install-scripts $base/lib/Final_description --single-version-externally-managed install_data
