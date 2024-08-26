@@ -36,11 +36,12 @@ def generate_launch_description():
             PathJoinSubstitution([
                 FindPackageShare('gazebo_ros'),
                 'launch',
-                'gzserver.launch.py'
+                'gazebo.launch.py'
             ])
         ]),
         launch_arguments={
-            'pause': 'true'
+            'pause': 'true',
+            'extra_gazebo_args': '--ros-args --params-file '
         }.items()
     )
 
