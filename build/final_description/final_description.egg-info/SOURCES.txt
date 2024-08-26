@@ -13,7 +13,6 @@ config/display.rviz
 final_description/__init__.py
 launch/display.launch.py
 launch/gazebo.launch.py
-launch/gz_sim_model.launch.py
 meshes/ball_caster_v1_1.stl
 meshes/base_link.stl
 meshes/camera_v1_1.stl

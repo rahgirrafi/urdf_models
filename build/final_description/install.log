@@ -4,7 +4,6 @@
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.xml
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/launch/display.launch.py
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/launch/gazebo.launch.py
-/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/launch/gz_sim_model.launch.py
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/urdf/final.trans
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/urdf/final.xacro
 /home/rafi/ros2/urdf_ws/install/final_description/share/final_description/urdf/final.gazebo

@@ -1,0 +1,56 @@
+[1.380s] Invoking command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data
+[1.588s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.588s]   warnings.warn(
+[1.597s] running egg_info
+[1.598s] creating ../../build/assembly_refined_description/assembly_refined_description.egg-info
+[1.598s] writing ../../build/assembly_refined_description/assembly_refined_description.egg-info/PKG-INFO
+[1.599s] writing dependency_links to ../../build/assembly_refined_description/assembly_refined_description.egg-info/dependency_links.txt
+[1.599s] writing entry points to ../../build/assembly_refined_description/assembly_refined_description.egg-info/entry_points.txt
+[1.599s] writing requirements to ../../build/assembly_refined_description/assembly_refined_description.egg-info/requires.txt
+[1.599s] writing top-level names to ../../build/assembly_refined_description/assembly_refined_description.egg-info/top_level.txt
+[1.599s] writing manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+[1.601s] reading manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+[1.601s] writing manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+[1.604s] running build
+[1.604s] running build_py
+[1.605s] creating /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build
+[1.605s] creating /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib
+[1.605s] creating /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description
+[1.605s] copying assembly_refined_description/__init__.py -> /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description
+[1.605s] running install
+[1.605s] running install_lib
+[1.606s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description
+[1.606s] copying /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description/__init__.py -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description
+[1.606s] byte-compiling /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description/__init__.py to __init__.cpython-310.pyc
+[1.606s] running install_data
+[1.607s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/ament_index
+[1.607s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/ament_index/resource_index
+[1.607s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/ament_index/resource_index/packages
+[1.607s] copying resource/assembly_refined_description -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/ament_index/resource_index/packages
+[1.607s] copying package.xml -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description
+[1.608s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/launch
+[1.608s] copying launch/display.launch.py -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/launch
+[1.608s] copying launch/gazebo.launch.py -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/launch
+[1.608s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+[1.608s] copying urdf/assembly_refined.gazebo -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+[1.608s] copying urdf/assembly_refined.xacro -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+[1.609s] copying urdf/materials.xacro -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+[1.609s] copying urdf/assembly_refined.trans -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+[1.609s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.609s] copying meshes/base_link.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.609s] copying meshes/camera_v2__1__1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/motor_dummy_v2__1__1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/wheel_v3_1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/motor_mount_v3_1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/wheel_v3__1__1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/motor_mount_v3__1__1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/motor_dummy_v2_1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/camera_v2_1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] copying meshes/ball_caster_v2_1.stl -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/meshes
+[1.610s] creating /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/config
+[1.611s] copying config/display.rviz -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/config
+[1.611s] running install_egg_info
+[1.612s] Copying ../../build/assembly_refined_description/assembly_refined_description.egg-info to /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description-0.0.0-py3.10.egg-info
+[1.612s] running install_scripts
+[1.632s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log'
+[1.656s] Invoked command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data
