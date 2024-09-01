@@ -4,8 +4,11 @@
 <name>assembly_refined_description</name>
   <version>0.0.0</version>
 <description>The assembly_refined_description package</description>
-  <maintainer email="todo@todo.com">author</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="rahgirrafi@gmail.com">RahgirRafi</maintainer>
+  <license>Apache License 2.0</license>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs </exec_depend>
 
   <depend>xacro</depend>
   <depend>rviz2</depend>

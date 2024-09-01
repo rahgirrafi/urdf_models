@@ -1,0 +1,26 @@
+[5.015s] Invoking command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data
+[5.935s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.935s]   warnings.warn(
+[5.999s] running egg_info
+[6.006s] writing ../../build/assembly_refined_description/assembly_refined_description.egg-info/PKG-INFO
+[6.008s] writing dependency_links to ../../build/assembly_refined_description/assembly_refined_description.egg-info/dependency_links.txt
+[6.010s] writing entry points to ../../build/assembly_refined_description/assembly_refined_description.egg-info/entry_points.txt
+[6.013s] writing requirements to ../../build/assembly_refined_description/assembly_refined_description.egg-info/requires.txt
+[6.015s] writing top-level names to ../../build/assembly_refined_description/assembly_refined_description.egg-info/top_level.txt
+[6.034s] reading manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+[6.038s] writing manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+[6.038s] running build
+[6.039s] running build_py
+[6.039s] copying assembly_refined_description/openCV_img_processing.py -> /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description
+[6.040s] running install
+[6.044s] running install_lib
+[6.050s] copying /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description/openCV_img_processing.py -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description
+[6.053s] byte-compiling /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description/openCV_img_processing.py to openCV_img_processing.cpython-310.pyc
+[6.056s] running install_data
+[6.057s] running install_egg_info
+[6.066s] removing '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description-0.0.0-py3.10.egg-info' (and everything under it)
+[6.067s] Copying ../../build/assembly_refined_description/assembly_refined_description.egg-info to /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description-0.0.0-py3.10.egg-info
+[6.077s] running install_scripts
+[6.196s] Installing openCV_img_processing script to /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/assembly_refined_description
+[6.201s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log'
+[6.437s] Invoked command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data

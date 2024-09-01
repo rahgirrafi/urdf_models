@@ -9,6 +9,7 @@ setup.py
 ../../build/assembly_refined_description/assembly_refined_description.egg-info/top_level.txt
 ../../build/assembly_refined_description/assembly_refined_description.egg-info/zip-safe
 assembly_refined_description/__init__.py
+assembly_refined_description/openCV_img_processing.py
 config/display.rviz
 launch/display.launch.py
 launch/gazebo.launch.py
@@ -29,4 +30,5 @@ test/test_pep257.py
 urdf/assembly_refined.gazebo
 urdf/assembly_refined.trans
 urdf/assembly_refined.xacro
+urdf/gazebo_control.xacro
 urdf/materials.xacro

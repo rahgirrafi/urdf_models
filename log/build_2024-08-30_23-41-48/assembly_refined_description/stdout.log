@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/assembly_refined_description/assembly_refined_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/assembly_refined_description/assembly_refined_description.egg-info/dependency_links.txt
+writing entry points to ../../build/assembly_refined_description/assembly_refined_description.egg-info/entry_points.txt
+writing requirements to ../../build/assembly_refined_description/assembly_refined_description.egg-info/requires.txt
+writing top-level names to ../../build/assembly_refined_description/assembly_refined_description.egg-info/top_level.txt
+reading manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/assembly_refined_description/assembly_refined_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying assembly_refined_description/openCV_img_processing.py -> /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description
+running install
+running install_lib
+copying /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build/lib/assembly_refined_description/openCV_img_processing.py -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description
+byte-compiling /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description/openCV_img_processing.py to openCV_img_processing.cpython-310.pyc
+running install_data
+copying urdf/assembly_refined.xacro -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+copying urdf/gazebo_control.xacro -> /home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/urdf
+running install_egg_info
+removing '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/assembly_refined_description/assembly_refined_description.egg-info to /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages/assembly_refined_description-0.0.0-py3.10.egg-info
+running install_scripts
+Installing openCV_img_processing script to /home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/assembly_refined_description
+writing list of installed files to '/home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log'
