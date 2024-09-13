@@ -11,6 +11,8 @@ import numpy as np
 import os
 
 
+stereo = cv2.StereoBM.create()
+
 class OpenCVImageProcessing(Node):
 
     def __init__(self):
@@ -23,14 +25,17 @@ class OpenCVImageProcessing(Node):
         self.img1 = None
         self.img2 = None
 
+
     def image_callback1(self, msg):
         self.img1 = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+        cv2.imwrite('/home/rafi/ros2/urdf_ws/src/assembly_refined_description/captures/image1.jpg', self.img1)
         cv2.imshow('Image1', self.img1)
         cv2.waitKey(3)
         self.image_processing()
 
     def image_callback2(self, msg):
         self.img2 = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+        cv2.imwrite('/home/rafi/ros2/urdf_ws/src/assembly_refined_description/captures/image2.jpg', self.img2)
         cv2.imshow('Image2', self.img2)
         cv2.waitKey(3)
         self.image_processing()
@@ -42,38 +47,58 @@ class OpenCVImageProcessing(Node):
             self.get_logger().info('Images not received yet')
 
     def object_detector(self, img1, img2):
-        img1_gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
-        img2_gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
-        # Initialize ORB detector
-        orb = cv2.ORB_create()
 
-        # Find the keypoints and descriptors with ORB
-        keypoints1, descriptors1 = orb.detectAndCompute(img1, None)
-        keypoints2, descriptors2 = orb.detectAndCompute(img2, None)
-
-        # Create BFMatcher object
-        bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
         
-        # Match descriptors
-        matches = bf.match(descriptors1, descriptors2)
+        window_size = 2  # wsize default 3; 5; 7 for SGBM reduced size image; 15 for SGBM full size image (1300px and above); 5 Works nicely
 
-        # Sort them in the order of their distance
-        matches = sorted(matches, key = lambda x:x.distance)
+        left_matcher = cv2.StereoSGBM_create(
+            minDisparity=-1,
+            numDisparities=8,  # max_disp has to be dividable by 16 f. E. HH 192, 256
+            blockSize=window_size,
+            P1=9 * 3 * window_size,
+            # wsize default 3; 5; 7 for SGBM reduced size image; 15 for SGBM full size image (1300px and above); 5 Works nicely
+            P2=128 * 3 * window_size,
+            disp12MaxDiff=12,
+            uniquenessRatio=40,
+            speckleWindowSize=50,
+            speckleRange=32,
+            preFilterCap=63,
+            mode=cv2.STEREO_SGBM_MODE_SGBM_3WAY
+        )
+        right_matcher = cv2.ximgproc.createRightMatcher(left_matcher)
+        # FILTER Parameters
+        lmbda = 70000
+        sigma = 1.7
+        visual_multiplier = 6
 
-        # Draw first 10 matches
-        img3 = cv2.drawMatches(img1, keypoints1, img2, keypoints2, matches[:10], None, flags=cv2.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
+        wls_filter = cv2.ximgproc.createDisparityWLSFilter(matcher_left=left_matcher)
+        wls_filter.setLambda(lmbda)
+        wls_filter.setSigmaColor(sigma)
+
+        displ = left_matcher.compute(img2, img1)  # .astype(np.float32)/16
+        dispr = right_matcher.compute(img1, img2)  # .astype(np.float32)/16
+        displ = np.int16(displ)
+        dispr = np.int16(dispr)
+        filteredImg = wls_filter.filter(displ, img2, None, dispr)  # important to put "img1" here!!!
+        filteredImg = cv2.normalize(src=filteredImg, dst=filteredImg, beta=0, alpha=255, norm_type=cv2.NORM_MINMAX)
+        filteredImg = np.uint8(filteredImg)
 
 
-        cv2.imshow('Detected', img3)
-        cv2.waitKey(3)
+        cv2.imshow('disparity', filteredImg)
 
+        
 
+        
+        
 
+        
 
 def main(args=None):
+
     rclpy.init(args=args)
     openCV_img_processing = OpenCVImageProcessing()
     rclpy.spin(openCV_img_processing)
+    cv2.destroyAllWindows()
     openCV_img_processing.destroy_node()
     rclpy.shutdown()
 

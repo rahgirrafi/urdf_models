@@ -4,7 +4,6 @@
 <xacro:include filename="$(find assembly_refined_description)/urdf/materials.xacro" />
 <xacro:include filename="$(find assembly_refined_description)/urdf/assembly_refined.trans" />
 <xacro:include filename="$(find assembly_refined_description)/urdf/assembly_refined.gazebo" />
-<xacro:include filename="$(find assembly_refined_description)/urdf/gazebo_control.xacro" />
 
 <link name="base_link">
   <inertial>

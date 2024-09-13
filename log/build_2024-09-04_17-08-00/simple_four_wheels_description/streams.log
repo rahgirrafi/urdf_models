@@ -1,0 +1,22 @@
+[1.091s] Invoking command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data
+[1.306s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.306s]   warnings.warn(
+[1.314s] running egg_info
+[1.315s] writing ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/PKG-INFO
+[1.315s] writing dependency_links to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/dependency_links.txt
+[1.315s] writing entry points to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/entry_points.txt
+[1.316s] writing requirements to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/top_level.txt
+[1.317s] reading manifest file '../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/SOURCES.txt'
+[1.318s] writing manifest file '../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info/SOURCES.txt'
+[1.318s] running build
+[1.318s] running build_py
+[1.318s] running install
+[1.319s] running install_lib
+[1.320s] running install_data
+[1.320s] running install_egg_info
+[1.322s] removing '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.322s] Copying ../../build/simple_four_wheels_description/simple_four_wheels_description.egg-info to /home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages/simple_four_wheels_description-0.0.0-py3.10.egg-info
+[1.336s] running install_scripts
+[1.356s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log'
+[1.376s] Invoked command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data

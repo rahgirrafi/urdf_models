@@ -1,0 +1,22 @@
+[3.603s] Invoking command in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_description build --build-base /home/rafi/ros2/urdf_ws/build/final_description/build install --record /home/rafi/ros2/urdf_ws/build/final_description/install.log --install-scripts $base/lib/final_description --single-version-externally-managed install_data
+[3.824s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.824s]   warnings.warn(
+[3.833s] running egg_info
+[3.834s] writing ../../build/final_description/final_description.egg-info/PKG-INFO
+[3.842s] writing dependency_links to ../../build/final_description/final_description.egg-info/dependency_links.txt
+[3.842s] writing entry points to ../../build/final_description/final_description.egg-info/entry_points.txt
+[3.842s] writing requirements to ../../build/final_description/final_description.egg-info/requires.txt
+[3.843s] writing top-level names to ../../build/final_description/final_description.egg-info/top_level.txt
+[3.880s] reading manifest file '../../build/final_description/final_description.egg-info/SOURCES.txt'
+[3.923s] writing manifest file '../../build/final_description/final_description.egg-info/SOURCES.txt'
+[3.923s] running build
+[3.923s] running build_py
+[3.955s] running install
+[3.956s] running install_lib
+[3.961s] running install_data
+[3.987s] running install_egg_info
+[3.994s] removing '/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.997s] Copying ../../build/final_description/final_description.egg-info to /home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages/final_description-0.0.0-py3.10.egg-info
+[4.025s] running install_scripts
+[4.047s] writing list of installed files to '/home/rafi/ros2/urdf_ws/build/final_description/install.log'
+[4.072s] Invoked command in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_description build --build-base /home/rafi/ros2/urdf_ws/build/final_description/build install --record /home/rafi/ros2/urdf_ws/build/final_description/install.log --install-scripts $base/lib/final_description --single-version-externally-managed install_data

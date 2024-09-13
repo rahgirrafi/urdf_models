@@ -1,0 +1,226 @@
+[1.411s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.411s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x793470b4ab00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793470c2fcd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793470c2fcd0>>)
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.849s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.849s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rafi/ros2/urdf_ws'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.849s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.850s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.896s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.897s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extensions ['ignore', 'ignore_ament_install']
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extension 'ignore'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extension 'ignore_ament_install'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extensions ['colcon_pkg']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extension 'colcon_pkg'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extensions ['colcon_meta']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extension 'colcon_meta'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extensions ['ros']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/assembly_refined_description) by extension 'ros'
+[4.924s] DEBUG:colcon.colcon_core.package_identification:Package 'src/assembly_refined_description' with type 'ros.ament_python' and name 'assembly_refined_description'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extensions ['ignore', 'ignore_ament_install']
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extension 'ignore'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extension 'ignore_ament_install'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extensions ['colcon_pkg']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extension 'colcon_pkg'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extensions ['colcon_meta']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extension 'colcon_meta'
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extensions ['ros']
+[4.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/binocular_vision_bot) by extension 'ros'
+[4.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/binocular_vision_bot' with type 'ros.ament_python' and name 'final_description'
+[4.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extensions ['ignore', 'ignore_ament_install']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extension 'ignore'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extension 'ignore_ament_install'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extensions ['colcon_pkg']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extension 'colcon_pkg'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extensions ['colcon_meta']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extension 'colcon_meta'
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extensions ['ros']
+[4.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_four_wheels_description) by extension 'ros'
+[4.959s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_four_wheels_description' with type 'ros.ament_python' and name 'simple_four_wheels_description'
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.113s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.149s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[5.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_args' from command line to 'None'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_target' from command line to 'None'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.044s] Level 5:colcon.colcon_core.verb:set package 'assembly_refined_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.045s] DEBUG:colcon.colcon_core.verb:Building package 'assembly_refined_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafi/ros2/urdf_ws/build/assembly_refined_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafi/ros2/urdf_ws/install/assembly_refined_description', 'merge_install': False, 'path': '/home/rafi/ros2/urdf_ws/src/assembly_refined_description', 'symlink_install': False, 'test_result_base': None}
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_args' from command line to 'None'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_target' from command line to 'None'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.045s] Level 5:colcon.colcon_core.verb:set package 'final_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.046s] DEBUG:colcon.colcon_core.verb:Building package 'final_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafi/ros2/urdf_ws/build/final_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafi/ros2/urdf_ws/install/final_description', 'merge_install': False, 'path': '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot', 'symlink_install': False, 'test_result_base': None}
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_args' from command line to 'None'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_target' from command line to 'None'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_clean_cache' from command line to 'False'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_clean_first' from command line to 'False'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'cmake_force_configure' from command line to 'False'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'ament_cmake_args' from command line to 'None'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'catkin_cmake_args' from command line to 'None'
+[7.046s] Level 5:colcon.colcon_core.verb:set package 'simple_four_wheels_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.046s] DEBUG:colcon.colcon_core.verb:Building package 'simple_four_wheels_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description', 'merge_install': False, 'path': '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description', 'symlink_install': False, 'test_result_base': None}
+[7.047s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.048s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.048s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description' with build type 'ament_python'
+[7.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('assembly_refined_description', 'ament_prefix_path')
+[7.139s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/ament_prefix_path.ps1'
+[7.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/ament_prefix_path.dsv'
+[7.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/ament_prefix_path.sh'
+[7.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot' with build type 'ament_python'
+[7.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_description', 'ament_prefix_path')
+[7.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/ament_prefix_path.ps1'
+[7.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/ament_prefix_path.dsv'
+[7.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/ament_prefix_path.sh'
+[7.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.175s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description' with build type 'ament_python'
+[7.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_four_wheels_description', 'ament_prefix_path')
+[7.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/ament_prefix_path.ps1'
+[7.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/ament_prefix_path.dsv'
+[7.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/ament_prefix_path.sh'
+[7.180s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.180s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.532s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description'
+[7.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.866s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot'
+[7.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.119s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description'
+[8.120s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.120s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data
+[8.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_description build --build-base /home/rafi/ros2/urdf_ws/build/final_description/build install --record /home/rafi/ros2/urdf_ws/build/final_description/install.log --install-scripts $base/lib/final_description --single-version-externally-managed install_data
+[8.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data
+[9.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafi/ros2/urdf_ws/src/binocular_vision_bot' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/final_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_description build --build-base /home/rafi/ros2/urdf_ws/build/final_description/build install --record /home/rafi/ros2/urdf_ws/build/final_description/install.log --install-scripts $base/lib/final_description --single-version-externally-managed install_data
+[9.058s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description' for CMake module files
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description' for CMake config files
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description/lib'
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description/bin'
+[9.059s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description/lib/pkgconfig/final_description.pc'
+[9.060s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description/lib/python3.10/site-packages'
+[9.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_description', 'pythonpath')
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/pythonpath.ps1'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/pythonpath.dsv'
+[9.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/hook/pythonpath.sh'
+[9.061s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/final_description/bin'
+[9.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_description)
+[9.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.ps1'
+[9.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.dsv'
+[9.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.sh'
+[9.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.bash'
+[9.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/final_description/share/final_description/package.zsh'
+[9.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafi/ros2/urdf_ws/install/final_description/share/colcon-core/packages/final_description)
+[9.069s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description' for CMake module files
+[9.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafi/ros2/urdf_ws/src/simple_four_wheels_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simple_four_wheels_description build --build-base /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/build install --record /home/rafi/ros2/urdf_ws/build/simple_four_wheels_description/install.log --install-scripts $base/lib/simple_four_wheels_description --single-version-externally-managed install_data
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description' for CMake config files
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib'
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/bin'
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/pkgconfig/simple_four_wheels_description.pc'
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/lib/python3.10/site-packages'
+[9.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_four_wheels_description', 'pythonpath')
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/pythonpath.ps1'
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/pythonpath.dsv'
+[9.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/hook/pythonpath.sh'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/bin'
+[9.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_four_wheels_description)
+[9.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/package.ps1'
+[9.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/package.dsv'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/package.sh'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/package.bash'
+[9.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/simple_four_wheels_description/package.zsh'
+[9.074s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafi/ros2/urdf_ws/install/simple_four_wheels_description/share/colcon-core/packages/simple_four_wheels_description)
+[9.085s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description' for CMake module files
+[9.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rafi/ros2/urdf_ws/src/assembly_refined_description' returned '0': PYTHONPATH=/home/rafi/ros2/urdf_ws/build/assembly_refined_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/assembly_refined_description build --build-base /home/rafi/ros2/urdf_ws/build/assembly_refined_description/build install --record /home/rafi/ros2/urdf_ws/build/assembly_refined_description/install.log --install-scripts $base/lib/assembly_refined_description --single-version-externally-managed install_data
+[9.086s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description' for CMake config files
+[9.087s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib'
+[9.087s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/bin'
+[9.087s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/pkgconfig/assembly_refined_description.pc'
+[9.087s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/lib/python3.10/site-packages'
+[9.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('assembly_refined_description', 'pythonpath')
+[9.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/pythonpath.ps1'
+[9.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/pythonpath.dsv'
+[9.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/hook/pythonpath.sh'
+[9.088s] Level 1:colcon.colcon_core.environment:checking '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/bin'
+[9.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(assembly_refined_description)
+[9.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/package.ps1'
+[9.089s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/package.dsv'
+[9.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/package.sh'
+[9.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/package.bash'
+[9.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/assembly_refined_description/package.zsh'
+[9.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rafi/ros2/urdf_ws/install/assembly_refined_description/share/colcon-core/packages/assembly_refined_description)
+[9.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.091s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.108s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.108s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.167s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafi/ros2/urdf_ws/install/local_setup.ps1'
+[9.170s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafi/ros2/urdf_ws/install/_local_setup_util_ps1.py'
+[9.173s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafi/ros2/urdf_ws/install/setup.ps1'
+[9.176s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafi/ros2/urdf_ws/install/local_setup.sh'
+[9.177s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rafi/ros2/urdf_ws/install/_local_setup_util_sh.py'
+[9.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafi/ros2/urdf_ws/install/setup.sh'
+[9.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafi/ros2/urdf_ws/install/local_setup.bash'
+[9.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafi/ros2/urdf_ws/install/setup.bash'
+[9.185s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rafi/ros2/urdf_ws/install/local_setup.zsh'
+[9.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rafi/ros2/urdf_ws/install/setup.zsh'

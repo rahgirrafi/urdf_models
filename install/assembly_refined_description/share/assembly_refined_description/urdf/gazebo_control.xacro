@@ -1,6 +1,23 @@
 <?xml version="1.0" ?>
 <robot name="assembly_refined" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
+    <gazebo>
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+            <alwaysOn>true</alwaysOn>
+            <updateRate>100.0</updateRate>
+            <leftJoint>Revolute 5</leftJoint>
+            <rightJoint>Revolute 6</rightJoint>
+            <wheelSeparation>0.022</wheelSeparation>
+            <wheelDiameter>0.035</wheelDiameter>
+
+            <max_wheel_torque>200.0</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+            
+            <commandTopic>cmd_vel</commandTopic>
+            <odometryTopic>odom</odometryTopic>
+            <odometryFrame>odom</odometryFrame>
+            <robotBaseFrame>base_link</robotBaseFrame>
+    </gazebo>
 
 
 </robot>
